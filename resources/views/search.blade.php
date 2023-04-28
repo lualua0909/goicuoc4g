@@ -7,7 +7,7 @@
             <div class="col-lg-4">
                 <aside class="primary-sidebar">
                     <div class="sidebar-widget sidebar-search">
-                        <form action="{{ url('/tim-kiem/'. Request::get('search') ) }}" class="advanced-search-form">
+                        <form action="{{ url('/tim-kiem' ) }}" class="advanced-search-form">
                             <div class="search-input-wrapper">
                                 <input type="text" class="search-input" name="search" placeholder="Tìm tên gói cước"
                                     value="{{$search}}">

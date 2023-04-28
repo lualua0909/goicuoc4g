@@ -87,7 +87,7 @@
 	            <div class="col-lg-3 col-md-10 col-9">
 	                <div class="header-left">
 	                    <div class="search-form-wrapper">
-	                        <form action="{{ url('/tim-kiem/'. Request::get('search') ) }}" method="GET"
+	                        <form action="{{ url('/tim-kiem' ) }}" method="GET"
 	                            class="search-form">
 	                            <input type="text" placeholder="Tìm gói cước" name="search">
 	                            <button type="submit">Tìm kiếm</button>

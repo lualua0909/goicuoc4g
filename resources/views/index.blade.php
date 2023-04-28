@@ -45,7 +45,7 @@
                 <div class="advanced-search">
                     <h2 class="section-title">TÌM GÓI CƯỚC THEO NHU CẦU</h2>
 
-                    <form action="{{ url('/tim-kiem/'. Request::get('search') ) }}" class="advanced-search-form">
+                    <form action="{{ url('/tim-kiem' ) }}" class="advanced-search-form">
                         <div class="search-input-wrapper">
                             <input type="text" class="search-input" name="search" placeholder="Tìm tên gói cước">
                         </div>
